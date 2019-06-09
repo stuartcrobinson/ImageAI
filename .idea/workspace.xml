@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f17c1b64-95ab-4d32-8df4-97d6f56e6ae5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/examples/object_detectionSTUART.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/object_detectionSTUART_cropping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/object_detection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/object_detectionSTUART.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/object_detectionSTUART.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/object_detectionSTUART_cropping.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/object_detectionSTUART_croppingVideoFrames.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,10 +15,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/object_detectionSTUART_cropping.py">
+        <entry file="file://$PROJECT_DIR$/examples/object_detectionSTUART_croppingVideoFrames.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1365">
-              <caret line="91" column="35" selection-start-line="91" selection-start-column="35" selection-end-line="91" selection-end-column="35" />
+            <state relative-caret-position="475">
+              <caret line="142" column="92" selection-start-line="142" selection-start-column="92" selection-end-line="142" selection-end-column="92" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/object_detectionSTUART.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -50,6 +62,12 @@
       <find>im = cv2.imread(filePath)  # , cv2.IMREAD_GRAYSCALE)</find>
       <find>rgb</find>
       <find>bgr</find>
+      <find>saveDetections</find>
+      <find>imcrop</find>
+      <find>findBall</find>
+      <find>getTennisBallCoordinates</find>
+      <find>translateCropCoordToOrig</find>
+      <find>distanceBetween</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -59,8 +77,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/examples/object_detection.py" />
-        <option value="$PROJECT_DIR$/examples/object_detectionSTUART.py" />
         <option value="$PROJECT_DIR$/examples/object_detectionSTUART_cropping.py" />
+        <option value="$PROJECT_DIR$/examples/object_detectionSTUART.py" />
+        <option value="$PROJECT_DIR$/examples/object_detectionSTUART_croppingVideoFrames.py" />
       </list>
     </option>
   </component>
@@ -76,8 +95,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="122" />
-    <option name="y" value="37" />
+    <option name="x" value="80" />
+    <option name="y" value="34" />
     <option name="width" value="1514" />
     <option name="height" value="989" />
   </component>
@@ -106,6 +125,25 @@
             <path>
               <item name="ImageAI" type="b2602c69:ProjectViewProjectNode" />
               <item name="ImageAI" type="462c0819:PsiDirectoryNode" />
+              <item name="gitignore" type="462c0819:PsiDirectoryNode" />
+              <item name="screengrabs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImageAI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImageAI" type="462c0819:PsiDirectoryNode" />
+              <item name="gitignore" type="462c0819:PsiDirectoryNode" />
+              <item name="screengrabs_crop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImageAI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImageAI" type="462c0819:PsiDirectoryNode" />
+              <item name="gitignore" type="462c0819:PsiDirectoryNode" />
+              <item name="screengrabs_crop" type="462c0819:PsiDirectoryNode" />
+              <item name="Y" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImageAI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImageAI" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -116,6 +154,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/examples" />
   </component>
   <component name="RecentsManager">
@@ -180,7 +219,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="122" y="37" width="1514" height="989" extended-state="0" />
+    <frame x="80" y="34" width="1514" height="989" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24949698" />
@@ -253,16 +293,6 @@
     <entry file="file://$PROJECT_DIR$/gitignore/forehand1_R.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/object_detectionSTUART.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/-1199943127/cv2/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -270,19 +300,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gitignore/screengrabs_crop/Y/Screen Shot 2019-06-08 at 4.59.36 pm.png.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitignore/screengrabs_crop/Y/Screen Shot 2019-06-08 at 4.59.52 pm.png.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitignore/19sec_crop/Y/000001.png.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitignore/19sec_crop/Y/000001.png.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/imageai/Detection/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="332" column="82" lean-forward="true" selection-start-line="332" selection-start-column="36" selection-end-line="332" selection-end-column="82" />
+        <state relative-caret-position="282">
+          <caret line="247" column="8" selection-start-line="247" selection-start-column="8" selection-end-line="247" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/object_detectionSTUART_cropping.py">
+    <entry file="file://$PROJECT_DIR$/examples/object_detectionSTUART.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="91" column="35" selection-start-line="91" selection-start-column="35" selection-end-line="91" selection-end-column="35" />
+        <state relative-caret-position="113">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/object_detectionSTUART_croppingVideoFrames.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="142" column="92" selection-start-line="142" selection-start-column="92" selection-end-line="142" selection-end-column="92" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

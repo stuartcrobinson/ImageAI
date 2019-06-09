@@ -27,7 +27,9 @@ detectorR.loadModel()
 import cv2
 
 inputDir = "/Users/stuartrobinson/repos/computervision/andre_aigassi/images/tennis_video/frames/raw/forehand"
-outDir = os.path.join(execution_path, "gitignore", "forehand")
+# inputDir = "/Users/stuartrobinson/repos/computervision/andre_aigassi/images/tennis_video/frames/raw/19sec"
+# inputDir = "/Users/stuartrobinson/repos/computervision/ImageAI/gitignore/screengrabs"
+outDir = os.path.join(execution_path, "gitignore", "screengrabs_out")
 os.makedirs(outDir, exist_ok=True)
 for file in os.listdir(inputDir):
     if file.endswith(".png"):
